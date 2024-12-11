@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     projects.forEach(project => {
         // Lorsque la souris entre
         project.addEventListener('mouseenter', () => {
-            project.style.transform = 'rotateY(180deg)'; // Rotation 3D
+            project.style.transform = 'rotateY(360eg)'; // Rotation 3D
         });
 
         // Lorsque la souris sort
